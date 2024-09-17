@@ -5,79 +5,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../style.css">
-    <title>Css selectors</title>
+    <title>Pseudo classes</title>
 </head>
 
 <body>
 
     <style>
-        * {
-            font-size: 30px;
-            color: black;
-        }
+      a{
+        color: black;
+      }
+      a:hover{
+        color: brown;
+      }
 
-        .color {
-            color: white;
-        }
-
-        div.color.text-color {
-            background-color: red;
-            color: white;
-        }
-
-        div.color {
-            background-color: red;
-        }
-
-        span.color {
-            color: green;
-        }
-
-        span,
-        li {
-            background-color: yellow;
-        }
-
-        ul strong {
-            background-color: grey;
-        }
-
-        li.color+li {
-            background-color: blueviolet;
-        }
-
-        input[type="text"] {
-            color: green;
-        }
-
-        input[type="password"] {
-            color: magenta;
-        }
+      a:active{
+        color: green;
+      }
     </style>
 
-    <h1>Css Selectors</h1>
+    <h1>Pseudo classes</h1>
 
-    <form action="">
-        <input type="text">
-        <input type="password">
-    </form>
-
-    <div class="color text-color">first div</div>
-    <div class="color">second div</div>
-    <span class="color">first span</span>
-    <ul>
-        <li>1</li>
-        <li>
-            <div>
-                <span>
-                    <strong>2</strong>
-                </span>
-            </div>
-        </li>
-        <li class="color">3</li>
-        <li>4</li>
-        <li>5</li>
-    </ul>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
 </body>
 
 </html>
