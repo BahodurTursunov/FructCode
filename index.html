@@ -11,19 +11,46 @@
 <body>
 
     <style>
-      p::before{
-        content: '$ ';
-        color: green;
-      }
-      p:hover::after{
-        content: ' $';
-        color: green;
-      }
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+        section{
+            background-color: cadetblue;
+            border: solid 1px black;
+            margin: 10px;
+            padding: 10px;
+        }
     </style>
 
-    <h1>Pseudo classes</h1>
 
-    <p>have a good day</p>
+    <header>
+        <div class="logo">Logo</div>
+        <nav>
+            <ul>
+                <li><a href="#">Main Page</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Block 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti modi, accusantium ad quos id cupiditate
+                culpa neque aut adipisci esse et placeat dolorum illo omnis eligendi, nisi tenetur eveniet corporis!</p>
+        </section>
+
+        <section>
+            <h2>Block 2</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores vel dignissimos provident tenetur necessitatibus, pariatur excepturi aut quam laboriosam blanditiis maxime a officiis ab distinctio quibusdam porro explicabo soluta repellat!</p>
+        </section>
+    </main>
+
+
+
+
 </body>
 
 </html>
